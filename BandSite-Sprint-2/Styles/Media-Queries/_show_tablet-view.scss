@@ -1,0 +1,127 @@
+
+@media (max-width: 1000px) {
+  .hero {
+
+    .hero__hero-image {
+      .hero__hero-image--overlay {
+
+        iframe {
+          position: relative;
+          bottom: 30%;
+          left: 10%;
+          right: 0;
+          align-self: flex-start;
+          width: 400px; 
+          margin: 8% 0 0 0;
+          // margin-bottom: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    .hero__hero-image {
+      height: 90vh;
+
+      .hero__hero-image--overlay {
+        height: 90vh;
+        background: rgba(0, 0, 0, .5);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;r
+    
+        #hero__h2 {
+          margin-left: 5%;
+          margin-top: 0%;
+        }
+
+        #hero__h4  {
+          color: $white;
+          font-size: 1.5rem;
+          margin: 55% 0 0 5%;
+        }
+
+        iframe {
+          position: relative;
+          bottom: 70%; 
+          left: 6%;
+          right: 0;
+          align-self: flex-start;
+          width: 400px; 
+          margin: 8% 0 0 0;
+          // margin-bottom: 300px;
+        }
+      }
+    }
+  }
+  
+  .tourdates {
+    width: 85%;
+    display: flex;
+    flex-flow: column nowrap;
+  
+    h2 {
+      font-size: 2rem;
+      margin-left: 7%;
+    }
+  
+    .tourdates__table {
+      display: flex;
+      flex-flow: column nowrap;
+      width: 90%;
+      margin: 2% 2%;
+  
+      table {
+        align-self: center;
+        width: 90%;
+  
+          tr {
+            box-shadow: 0 2px 0 $alabaster;
+            margin: 6% 0%;
+  
+            &:nth-of-type(1){
+              box-shadow: none;
+            }
+  
+            td {
+              padding: 2% 0%;
+            }
+  
+            th {
+              color: $mercury;
+              font-size: .8rem;
+              padding-right: 22%;
+            }
+  
+            & > td:nth-child(1) {
+              font-weight: bold;
+              // padding-right: 10%;
+            }
+  
+            & > td:nth-child(2), td:nth-child(3) {
+              font-size: .8rem;
+            }
+  
+            button {
+              background: $black;
+              color: $white;
+              font-weight: bold;
+              font-size: .8rem;
+              padding: 10px 55px;
+              border-radius: 4px;
+              width: 100%;
+            }
+          }
+        }
+      } 
+    }
+  
+}
+
+  
+
+  
