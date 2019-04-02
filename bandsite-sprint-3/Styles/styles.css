@@ -794,12 +794,42 @@ body {
     margin-left: 0%;
   }
   .navbar .navbar__nav .nav-link {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: -2% 2% -2% 0;
     padding: 0% 23% 1% 22%;
   }
   .navbar .navbar__nav .nav-link p {
     margin: 0;
+  }
+  .hero__hero-image--overlay {
+    height: 670px;
+    background: rgba(0, 0, 0, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .hero__hero-image--overlay #hero__h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-left: 3%;
+    margin-bottom: 50%;
+  }
+  .quote-area h2 {
+    font-size: 2rem;
+    margin: 3.5% 0 2% 3%;
+  }
+  .quote-area .quote-area__img {
+    height: 375px;
+    width: 94%;
   }
   .deleteBtn {
     width: 20%;
@@ -808,12 +838,22 @@ body {
 }
 
 @media (max-width: 475px) {
+  .navbar .navbar__nav .nav-link {
+    font-size: 0.8rem;
+    margin: -2% 5% 5% 0;
+    padding: 0% 18% 2% 15%;
+  }
   .deleteBtn {
     min-width: 15%;
   }
 }
 
 @media (max-width: 445px) {
+  #hero__h2 {
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-bottom: 50%;
+  }
   .deleteBtn {
     min-width: 20%;
   }
@@ -846,9 +886,9 @@ body {
     margin-left: 0%;
   }
   .navbar .navbar__nav .nav-link {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: 0 5% 5% 0;
-    padding: 0% 15% 9% 15%;
+    padding: 0% 15% 4% 15%;
   }
   .navbar .navbar__nav .nav-link p {
     margin: 0;
@@ -887,12 +927,12 @@ body {
     width: 90vw;
   }
   .quote-block .quote-block__h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     width: 88%;
     margin: 5% 2% 3% 5%;
   }
   .quote-block p {
-    font-size: .75rem;
+    font-size: 0.75rem;
     margin: 2% 0 3% 5%;
   }
   .bio-area {
@@ -911,7 +951,7 @@ body {
             flex-flow: row wrap;
     width: 100vw;
     margin-left: 1%;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .bio-area .bio__p p {
     margin-top: 0;
@@ -941,7 +981,7 @@ body {
   }
   .comments-area .comments-container .comments-container__title {
     margin: 4% 0 0 30%;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 600;
   }
   .comments-area .comments-container .comments-area__comment-input {
@@ -997,7 +1037,7 @@ body {
     color: #323232;
     line-height: 50px;
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin: 3% 0 5% 3%;
   }
   .comments-area .comments-container .comments-area__comment-feed .user-comment div .name-container .circle {
@@ -1051,15 +1091,15 @@ body {
     margin: 1%;
   }
   .footer .agents .agents__contact p {
-    font-size: .7rem;
+    font-size: 0.7rem;
     padding: 2% 0;
   }
   .footer .agents .agents__contact .agents__contact--font-sm {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .footer .copyright-info p {
     width: 65%;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
