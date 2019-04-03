@@ -1,11 +1,11 @@
 # Band Site
-[Academic Project] - A fictional band's website built in sprints, and used to showcase competency in Flexbox, SASS, BEM, responsive design, and APIs.
+[Academic Project] - A fictional band's website used to show comprehension of Flexbox, SASS, BEM, responsive design, APIs, and Javascript fundamentals.
 
-<h2>About</h2>
+## About
 
 This was an early project for my web development diploma program. My task was to create a responsive, multi-page site that connects to an API in three week-long sprints. Mockups from a UI/UX designer was provided, and I was expected to create the site according to its specifications. 
 
-<h2>Key Learnings</h2>
+## Key Learnings
 
 - Wrote semantic HTML and used the principles of BEM for clear, minimal markup. 
 - Became proficient in the CSS layout, Flexbox, SASS preprocessor, and the principles of responsive and mobile-first design. 
